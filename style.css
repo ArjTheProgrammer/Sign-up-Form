@@ -5,6 +5,7 @@
 
 body {
   margin: 0px;
+  display: flex;
 }
 
 .logo {
@@ -13,4 +14,45 @@ body {
   width: 30vw;
   height: 100vh;
   box-shadow: 5px 0px 5px pink;
+}
+
+.info {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+span {
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  width: 50vw;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+fieldset {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border: none;
+}
+
+fieldset > div {
+  display: flex;
+  justify-content: space-around;
+}
+
+fieldset > div > div {
+  display: flex;
+  flex-direction: column;
+}
+
+legend {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+label {
+  font-size: 0.8rem;
 }
