@@ -10,6 +10,7 @@ body {
 
 .logo {
   background-image: url(assets/bini-background.jpg);
+  background-position: center;
   background-size: cover;
   width: 30vw;
   height: 100vh;
@@ -79,4 +80,18 @@ a {
   color: rgb(205, 75, 97);
   text-decoration: none;
   font-weight: 700;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+input:valid {
+  border-color: green;
+}
+
+input {
+  border-color: black;
+  padding: 10px 20px;
+  border-radius: 10px;
 }
