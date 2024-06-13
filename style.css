@@ -1,0 +1,10 @@
+@font-face {
+  font-family: Norse-Bold;
+  src: url(assets/Norse-Bold.otf);
+}
+
+body {
+  font-family: Norse-bold, sans-serif;
+  font-size: 10rem;
+  color: blue;
+}
