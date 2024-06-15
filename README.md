@@ -1,6 +1,8 @@
 # BINI-Themed Sign-Up Form
 
-![BINI Sign-Up Form](path/to/your/screenshot.png)
+<img src="assets/Screenshot 2024-06-15 085805.png">
+
+[Click the link to view](https://arjtheprogrammer.github.io/sign-up-form/)
 
 ## Description
 
